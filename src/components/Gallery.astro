@@ -1,0 +1,31 @@
+---
+import art1 from '/art1.jpg'
+import art2 from '/art2.jpg'
+import art3 from '/art3.jpg'
+import art4 from '/art4.jpg'
+---
+
+<div class="mx-12 mb-24">
+	<h1 class="my-24 text-center text-2xl font-bold text-slate-800">Latest Art Pieces</h1>
+	<div class="grid grid-cols-1 gap-16 xl:mx-48 xl:grid-cols-2">
+		<div class="relative group">
+			<img src={art1} class="relative w-full z-10 rounded-lg transition-all group-hover:-translate-x-3" alt="Painting">
+			<div class="absolute transition-all group-hover:translate-x-4 rounded-lg left-0 top-0 w-full h-full bg-slate-900"></div>
+		</div>
+
+		<div class="relative group">
+			<img src={art2} class="relative w-full z-10 rounded-lg transition-all group-hover:-translate-x-3" alt="Painting">
+			<div class="absolute transition-all group-hover:translate-x-4 rounded-lg left-0 top-0 w-full h-full bg-slate-900"></div>
+		</div>
+
+		<div class="relative group">
+			<img src={art3} class="relative w-full z-10 rounded-lg transition-all group-hover:-translate-x-3" alt="Painting">
+			<div class="absolute transition-all group-hover:translate-x-4 rounded-lg left-0 top-0 w-full h-full bg-slate-900"></div>
+		</div>
+
+		<div class="relative group">
+			<img src={art4} class="relative w-full z-10 rounded-lg transition-all group-hover:-translate-x-3" alt="Painting">
+			<div class="absolute transition-all group-hover:translate-x-4 rounded-lg left-0 top-0 w-full h-full bg-slate-900"></div>
+		</div>
+	</div>
+</div>
